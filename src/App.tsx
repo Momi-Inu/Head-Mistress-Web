@@ -1,19 +1,31 @@
 import * as React from 'react';
+import { Route } from 'react-router';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
+import Commands from './Components/Commands/Commands.Component';
+import Footer from './Components/Footer/Footer.Component';
+import HomePage from './Components/HomePage/HomePage.Component';
+import NavBar from './Components/NavBar/NavBar.Component';
 
-import logo from './logo.svg';
+interface IState {
+  index: number;
+}
 
-class App extends React.Component {
+class App extends React.Component<{}, IState> {
+
   public render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <Router>
+          <div>
+            <Route path="*" component={NavBar} />
+            <Route path="/commands" component={Commands} />
+            <Route path="/profile" />
+            <Route path="/login" />
+            <Route exact={true} path="/" component={HomePage} />
+            <Route path="*" component={Footer} />
+          </div>
+        </Router>
       </div>
     );
   }

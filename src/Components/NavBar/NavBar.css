@@ -1,0 +1,70 @@
+.navbar-nav-link {
+    margin: 0px 20px;
+    align-self: center;
+}
+
+.navbar-nav-options {
+    display: flex;
+}
+
+.navbar-nav-brand{ 
+    display: flex;
+}
+
+.navbar-nav-brand-info {
+    align-self: center;
+}
+
+.navbar-nav-brand-add {
+    margin-left: 20px;
+}
+
+.navbar-button-botlink {
+    color: #CB4889;
+    background-color: transparent;
+    background-image: none;
+    border-color: #CB4889;
+}
+.navbar-button-botlink:hover {
+    color: #fff;
+    background-color: #CB4889;
+    border-color: #CB4889;
+}
+
+.navbar-button-botlink:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(203,72,137,.25);
+}
+
+.navbar-button-login {
+    color: #FFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    background-color: #CB4889;
+    border-color: #CB4889;
+}
+
+.navbar-button-login:hover {
+    color: #fff;
+    background-color: #CB4889;
+    border-color: #CB4889;
+}
+
+.navbar-button-login:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(203,72,137,.25);
+}
+
+.navbar-nav-logo {
+    border-radius: 50px;
+    border: solid 2px #CB4889;
+    width: 55px;
+    transition: opacity .25s ease-in-out;
+    transition: width .25s ease-in-out;
+    margin-right: 10px;
+}
+
+.navbar-nav-logo:hover {
+    opacity: 0.7;
+}
