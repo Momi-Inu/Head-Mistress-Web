@@ -45,7 +45,6 @@ export default class HomePage extends React.Component<{}, IState> {
     public render() {
         return (
             <div>
-                <div className="max-divider" />
                 <div className="homepage-container">
                     <div className="homepage-content">
                         <div className="homepage-table-container">
@@ -76,7 +75,6 @@ export default class HomePage extends React.Component<{}, IState> {
                         <h1 className="homepage-icon-subtext-2 lead">Head Mistress</h1>
                     </div>
                 </div>
-                <div className="max-divider" />
             </div>
         )
     }

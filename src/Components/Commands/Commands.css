@@ -1,0 +1,18 @@
+.commands-container {
+    display: flex;
+}
+
+.commands-lists {
+    flex: 1.5
+}
+
+.commands-groups {
+    flex: 0.75
+}
+
+.commands-selector-menu {
+    width: 275px;
+    align-content: center;
+    align-self: center;
+    display: inline-block;
+}

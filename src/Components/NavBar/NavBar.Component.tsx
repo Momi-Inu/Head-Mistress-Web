@@ -23,6 +23,7 @@ export default class NavBar extends React.Component {
                     <NavLink to="/profile" className="navbar-nav-link text-pinked">Profile</NavLink>
                     <NavLink to="/login" className="btn navbar-button-login navbar-nav-link">Login</NavLink>
                 </div>
+                <div className="max-divider" />
             </nav>
         )
     }

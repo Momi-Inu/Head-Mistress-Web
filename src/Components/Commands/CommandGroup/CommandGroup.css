@@ -1,0 +1,27 @@
+.commandgroup-navlink {
+    display: block;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 0.25rem;
+    color: white;
+    transition: 100ms background-color ease-in-out;
+}
+
+.commandgroup-navlink:focus {
+    background-color: #CB4889;
+}
+
+.commandgroup-navlink:hover:not(:focus) {
+    text-decoration: none;
+    color: white;
+    background-color: hsla(330, 67%, 67%, 0.5);
+}
+
+.commandgroup-navlink:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.commandgroup-current {
+    background-color: #CB4889;
+}
